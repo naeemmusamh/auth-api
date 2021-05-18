@@ -43,4 +43,4 @@ a string or buffer containing either the secret for HMAC algorithms, or the PEM 
 
 # Demo
 
-![auth-api]()
+![auth-api](https://github.com/naeemmusamh/auth-api/blob/main/img/auth-api.png?raw=true)
