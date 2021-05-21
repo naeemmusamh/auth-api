@@ -1,9 +1,14 @@
 'use strict';
 
+//initialization and setup the app and packages
+//mongoose
 const mongoose = require('mongoose');
+//bcrypt
 const bcrypt = require('bcrypt');
+//jsonwebtoken
 const jwt = require('jsonwebtoken');
-const SECRET = process.env.SECRET || 'mysecret';
+//route for the dotenv
+const SECRET = process.env.SECRET;
 
 const users = new mongoose.Schema({
     username: { type: String, required: true, unique: true },

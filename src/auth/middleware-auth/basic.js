@@ -1,10 +1,16 @@
 'use strict';
 
+//initialization and setup the app and packages
+//base-64
 const base64 = require('base-64');
+//jsonwebtoken
 const jwt = require('jsonwebtoken');
+//bcrypt
 const bcrypt = require('bcrypt');
-const SECRET = process.env.SECRET || 'mysecret';
-const User = require('../models/users-model.js');
+//route for the dotenv
+const SECRET = process.env.SECRET;
+//route for the schema
+const User = require('../models-auth/users-model.js');
 
 module.exports = async(req, res, next) => {
 

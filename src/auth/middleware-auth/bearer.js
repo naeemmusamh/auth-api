@@ -1,6 +1,7 @@
 'use strict';
 
-const Users = require('../models/users-model.js');
+//route for the schema
+const Users = require('../models-auth/users-model.js');
 
 module.exports = async(req, res, next) => {
 
