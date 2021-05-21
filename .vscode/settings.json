@@ -1,6 +1,10 @@
 {
     "cSpell.words": [
+        "HMAC",
+        "MONGODB",
+        "mysecret",
         "signin",
+        "supergoose",
         "userdata"
     ]
 }
